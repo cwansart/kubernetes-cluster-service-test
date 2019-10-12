@@ -11,7 +11,7 @@ import javax.ws.rs.core.Response;
 @Path("users")
 @Singleton
 @Produces(MediaType.APPLICATION_JSON)
-public class UserController {
+public class UserResource {
 
     @Inject
     private UserRepository repository;

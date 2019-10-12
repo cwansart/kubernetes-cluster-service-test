@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @Path("greetings")
 @Singleton
 @Produces(MediaType.APPLICATION_JSON)
-public class GreetingService {
+public class GreetingResource {
 
     @Inject
     private UserRepository repository;
