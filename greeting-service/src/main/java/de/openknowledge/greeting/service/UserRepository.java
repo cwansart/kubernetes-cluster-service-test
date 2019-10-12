@@ -4,7 +4,6 @@ import org.eclipse.microprofile.rest.client.RestClientBuilder;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
-import javax.inject.Singleton;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
