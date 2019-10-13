@@ -1,6 +1,6 @@
 # Requirements
 
-This example assumed you use Minikube (https://kubernetes.io/docs/tasks/tools/install-minikube/).
+This example assumes you use Minikube (https://kubernetes.io/docs/tasks/tools/install-minikube/).
 
 # Build and deploy
 
