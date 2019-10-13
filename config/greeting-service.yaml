@@ -17,3 +17,18 @@ spec:
       containers:
         - image: greeting-service:1.0-SNAPSHOT
           name: greeting-service
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: greeting-service
+  name: greeting-service
+spec:
+  ports:
+    - port: 8181
+      protocol: TCP
+      targetPort: 8181
+  selector:
+    app: greeting-service
+  type: NodePort
